@@ -1,7 +1,9 @@
+import numpy as np
+
 A=[[0,2, 1],[1, -2, -3],[-1, 1, 2]]
 B=[-8, 0, 3]
 l=[[0, 0, 0],[0, 0, 0],[0, 0, 0]]
-print(f"csere elott:{A}")
+print(f"csere elott:\n {np.array(A)}")
 
 #Sorcsere:
 csere=0
